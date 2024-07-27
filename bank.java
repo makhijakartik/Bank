@@ -173,11 +173,11 @@ public class BankingSystem {
 
         // Create an array to store multiple customers
         Customer[] customers = new Customer[MAX_CUSTOMERS];
-        customers[0] = new Customer("Sahil", 1001, 10000, DEFAULT_BANK_NAME);
-        customers[1] = new Customer("Sudarshan", 1002, 10000, DEFAULT_BANK_NAME);
-        customers[2] = new Customer("Yash", 1003, 10000, DEFAULT_BANK_NAME);
-        customers[3] = new Customer("Harshit", 1004, 10000, DEFAULT_BANK_NAME);
-        customers[4] = new Customer("Rohit", 1005, 10000, DEFAULT_BANK_NAME);
+        customers[0] = new Customer("Kartik", 1001, 10000, DEFAULT_BANK_NAME);
+        customers[1] = new Customer("Yash", 1002, 10000, DEFAULT_BANK_NAME);
+        customers[2] = new Customer("Mahek", 1003, 10000, DEFAULT_BANK_NAME);
+        customers[3] = new Customer("Janhvi", 1004, 10000, DEFAULT_BANK_NAME);
+        customers[4] = new Customer("Sahil", 1005, 10000, DEFAULT_BANK_NAME);
 
         System.out.println("Welcome to the Banking Management System.");
         System.out.println("1. Customer");
